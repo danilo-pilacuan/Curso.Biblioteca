@@ -1,0 +1,17 @@
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.deps.json
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.runtimeconfig.json
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Domain.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\bin\Debug\net6.0\Curso.Biblioteca.Domain.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.csproj.AssemblyReference.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.AssemblyInfoInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.AssemblyInfo.cs
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.csproj.CoreCompileInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.csproj.CopyComplete
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\refint\Curso.Biblioteca.Infraestructure.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\Curso.Biblioteca.Infraestructure.genruntimeconfig.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Infraestructure\obj\Debug\net6.0\ref\Curso.Biblioteca.Infraestructure.dll

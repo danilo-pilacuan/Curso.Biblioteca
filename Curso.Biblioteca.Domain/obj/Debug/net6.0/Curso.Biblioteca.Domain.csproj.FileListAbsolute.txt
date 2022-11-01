@@ -1,0 +1,12 @@
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\bin\Debug\net6.0\Curso.Biblioteca.Domain.deps.json
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\bin\Debug\net6.0\Curso.Biblioteca.Domain.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\bin\Debug\net6.0\Curso.Biblioteca.Domain.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.csproj.AssemblyReference.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.AssemblyInfoInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.AssemblyInfo.cs
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.csproj.CoreCompileInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\refint\Curso.Biblioteca.Domain.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\Curso.Biblioteca.Domain.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Domain\obj\Debug\net6.0\ref\Curso.Biblioteca.Domain.dll
