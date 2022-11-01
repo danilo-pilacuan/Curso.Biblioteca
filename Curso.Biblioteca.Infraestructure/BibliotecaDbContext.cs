@@ -15,7 +15,8 @@ public class BibliotecaDbContext:DbContext,IUnitOfWork
     {
         var folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
-        DbPath = Path.Join(path, "biblioteca.v3.db");
+        //DbPath = Path.Join(path, "biblioteca.v3.db");
+        DbPath = Path.Combine(Directory.GetCurrentDirectory(), "../Curso.Biblioteca.HttpApi/baseBiblioteca.sqlite");
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)

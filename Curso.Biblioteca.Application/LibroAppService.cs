@@ -15,7 +15,7 @@ public class LibroAppService:ILibroAppService
         this.unitOfWork = unitOfWork;
     }
 
-    public async Task<LibroDto> CreateAsync(LibroCreateUpdateDto libroDto)
+    public async Task<LibroCreadoDto> CreateAsync(LibroCreateUpdateDto libroDto)
     {
         
         //Reglas Validaciones... 
@@ -34,6 +34,7 @@ public class LibroAppService:ILibroAppService
         libro.AutorId = libroDto.AutorId;
         libro.EditorialId = libroDto.EditorialId;
         
+        
         System.Console.WriteLine(JsonSerializer.Serialize(libro));
  
         //Persistencia objeto
@@ -41,7 +42,7 @@ public class LibroAppService:ILibroAppService
         await unitOfWork.SaveChangesAsync();
 
         //Mapeo Entidad => Dto
-        var libroCreado = new LibroDto();
+        var libroCreado = new LibroCreadoDto();
         
         libroCreado.Id = libro.Id;
         libroCreado.Titulo = libro.Titulo;
@@ -80,6 +81,8 @@ public class LibroAppService:ILibroAppService
         libro.FechaPublicacion = libroDto.FechaPublicacion;
         libro.AutorId = libroDto.AutorId;
         libro.EditorialId = libroDto.EditorialId;
+        // libro.Autor = libroDto.Autor;
+        // libro.Editorial = libroDto.Editorial;
 
         //Persistencia objeto
         await repository.UpdateAsync(libro);

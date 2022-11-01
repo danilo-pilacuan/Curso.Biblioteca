@@ -21,14 +21,14 @@ public class EditorialController:ControllerBase
     }
 
     [HttpPost]
-    public async Task<EditorialDto> CreateAsync(EditorialCreateUpdateDto editorial)
+    public async Task<EditorialDto> CreateAsync([FromForm] EditorialCreateUpdateDto editorial)
     {
 
         return await editorialAppService.CreateAsync(editorial);
 
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     public async Task UpdateAsync(int id, EditorialCreateUpdateDto editorial)
     {
 
@@ -36,7 +36,7 @@ public class EditorialController:ControllerBase
 
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public async Task<bool> DeleteAsync(int editorialId)
     {
 

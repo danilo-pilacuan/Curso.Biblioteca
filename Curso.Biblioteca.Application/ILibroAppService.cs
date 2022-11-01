@@ -4,7 +4,7 @@ public interface ILibroAppService
 {
     ICollection<LibroDto> GetAll();
 
-    Task<LibroDto> CreateAsync(LibroCreateUpdateDto libro);
+    Task<LibroCreadoDto> CreateAsync(LibroCreateUpdateDto libro);
 
     Task UpdateAsync (int id, LibroCreateUpdateDto libro);
 

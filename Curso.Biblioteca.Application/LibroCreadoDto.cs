@@ -1,9 +1,9 @@
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using Curso.Biblioteca.Domain;
 
-namespace Curso.Biblioteca.Domain;
+namespace Curso.Biblioteca.Application;
 
-public class Libro
+public class LibroCreadoDto
 {
     [Required]
     public int Id { get; set; }
@@ -17,7 +17,6 @@ public class Libro
     [StringLength(DominioConstantes.DESCRIPCION_MAX)]
     public string Sinopsis { get; set; }
     [Required]
-    [DefaultValue("2022-11-01 00:00:00.0")]
     public DateTime FechaPublicacion { get; set; }
     [Required]
     public int Existencias{get;set;}
@@ -25,9 +24,4 @@ public class Libro
     public int AutorId { get; set; }
     [Required]
     public int EditorialId { get; set; }
-    [Required]
-    public Autor Autor { get; set; }
-    [Required]
-    public Editorial Editorial { get; set; }
-    
 }

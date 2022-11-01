@@ -21,14 +21,14 @@ public class LibroController:ControllerBase
     }
 
     [HttpPost]
-    public async Task<LibroDto> CreateAsync(LibroCreateUpdateDto libro)
+    public async Task<LibroCreadoDto> CreateAsync([FromForm] LibroCreateUpdateDto libro)
     {
 
         return await libroAppService.CreateAsync(libro);
 
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
     public async Task UpdateAsync(int id, LibroCreateUpdateDto libro)
     {
 
@@ -36,7 +36,7 @@ public class LibroController:ControllerBase
 
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public async Task<bool> DeleteAsync(int libroId)
     {
 
