@@ -1154,11 +1154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
       "projectName": "Curso.Biblioteca.Infraestructure",
-      "projectPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
+      "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\obj\\",
+      "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1173,8 +1173,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
-              "projectPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj"
+            "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+              "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj"
             }
           }
         }

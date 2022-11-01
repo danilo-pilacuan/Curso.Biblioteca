@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {}
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
         "projectName": "Curso.Biblioteca.Domain",
-        "projectPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
+        "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LM+lbotafqCsUvr/UlxhrjelyJgomuoTQhbR/V7PHBLXmnM5/gNROuyLkhqDLCGXH1wM2Ajms4V0GRTMP0C78Q==",
+  "dgSpecHash": "seiJt7sAbrg1vcfkHM75Njm6yUsDem/aun7fp6xP1ujeXpM46IhVbYqHEyyisuS2qzV885p9/jQJCXyWa9sM1g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dpilacua\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dpilacua\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.10\\microsoft.data.sqlite.core.6.0.10.nupkg.sha512",

@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj": {}
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj": {
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\Curso.Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj",
-        "projectName": "Curso.Biblioteca.HttpApi",
-        "projectPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj",
+        "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\Curso.Biblioteca.Application.csproj",
+        "projectName": "Curso.Biblioteca.Application",
+        "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\Curso.Biblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\obj\\",
+        "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj"
+              },
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
+        "projectName": "Curso.Biblioteca.Domain",
+        "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj",
+        "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +85,68 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj",
+        "projectName": "Curso.Biblioteca.HttpApi",
+        "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\Curso.Biblioteca.HttpApi.csproj",
+        "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.HttpApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\Curso.Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Application\\Curso.Biblioteca.Application.csproj"
+              },
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj"
+              },
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,6 +178,72 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
+        "projectName": "Curso.Biblioteca.Infraestructure",
+        "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\Curso.Biblioteca.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\dpilacua\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dpilacua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\dpilacua\\Desktop\\Curso.Biblioteca\\Curso.Biblioteca.Domain\\Curso.Biblioteca.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

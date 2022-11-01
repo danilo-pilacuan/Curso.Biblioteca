@@ -1,0 +1,17 @@
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Application.deps.json
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Application.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Application.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Domain.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Domain.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\bin\Debug\net6.0\Curso.Biblioteca.Infraestructure.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.csproj.AssemblyReference.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.AssemblyInfoInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.AssemblyInfo.cs
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.csproj.CoreCompileInputs.cache
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.csproj.CopyComplete
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\refint\Curso.Biblioteca.Application.dll
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\Curso.Biblioteca.Application.pdb
+c:\Users\dpilacua\Desktop\Curso.Biblioteca\Curso.Biblioteca.Application\obj\Debug\net6.0\ref\Curso.Biblioteca.Application.dll
