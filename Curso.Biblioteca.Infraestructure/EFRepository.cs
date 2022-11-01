@@ -7,6 +7,7 @@ namespace Curso.Biblioteca.Infraestructure;
 public class EFRepository<TEntity> : IRepository<TEntity> where TEntity : class
 {
     protected readonly BibliotecaDbContext _context;
+    public IUnitOfWork UnitOfWork => _context;
 
     public EFRepository(BibliotecaDbContext context)
     {

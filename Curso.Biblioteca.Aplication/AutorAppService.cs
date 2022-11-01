@@ -13,18 +13,18 @@ public class AutorAppService:IAutorAppService
         this.unitOfWork = unitOfWork;
     }
 
-    public async Task<AutorDto> CreateAsync(AutorCreateUpdateDto marcaDto)
+    public async Task<AutorDto> CreateAsync(AutorCreateUpdateDto autorDto)
     {
         
         //Reglas Validaciones... 
-        // var existeNombreMarca = await repository.ExisteNombre(marcaDto.Nombre);
+        // var existeNombreMarca = await repository.ExisteNombre(autorDto.Nombre);
         // if (existeNombreMarca){
-        //     throw new ArgumentException($"Ya existe una marca con el nombre {marcaDto.Nombre}");
+        //     throw new ArgumentException($"Ya existe una autor con el nombre {autorDto.Nombre}");
         // }
  
         //Mapeo Dto => Entidad
         var autor = new Autor();
-        autor.Nombres = marcaDto.Nombres;
+        autor.Nombres = autorDto.Nombres;
  
         //Persistencia objeto
         autor = await repository.AddAsync(autor);
@@ -35,58 +35,56 @@ public class AutorAppService:IAutorAppService
         autorCreado.Nombres = autor.Nombres;
         autorCreado.Id = autor.Id;
 
-        //TODO: Enviar un correo electronica... 
-
         return autorCreado;
     }
 
-    public async Task UpdateAsync(int id, MarcaCrearActualizarDto marcaDto)
+    public async Task UpdateAsync(int id, AutorCreateUpdateDto autorDto)
     {
-        var marca = await repository.GetByIdAsync(id);
-        if (marca == null){
-            throw new ArgumentException($"La marca con el id: {id}, no existe");
+        var autor = await repository.GetByIdAsync(id);
+        if (autor == null){
+            throw new ArgumentException($"El autor con el id: {id}, no existe");
         }
         
-        var existeNombreMarca = await repository.ExisteNombre(marcaDto.Nombre,id);
-        if (existeNombreMarca){
-            throw new ArgumentException($"Ya existe una marca con el nombre {marcaDto.Nombre}");
-        }
+        // var existeNombreMarca = await repository.ExisteNombre(autorDto.Nombre,id);
+        // if (existeNombreMarca){
+        //     throw new ArgumentException($"Ya existe una autor con el nombre {autorDto.Nombre}");
+        // }
 
         //Mapeo Dto => Entidad
-        marca.Nombre = marcaDto.Nombre;
+        autor.Nombres = autorDto.Nombres;
 
         //Persistencia objeto
-        await repository.UpdateAsync(marca);
+        await repository.UpdateAsync(autor);
         await repository.UnitOfWork.SaveChangesAsync();
 
         return;
     }
 
-    public async Task<bool> DeleteAsync(int marcaId)
+    public async Task<bool> DeleteAsync(int autorId)
     {
-        //Reglas Validaciones... 
-        var marca = await repository.GetByIdAsync(marcaId);
-        if (marca == null){
-            throw new ArgumentException($"La marca con el id: {marcaId}, no existe");
+        var autor = await repository.GetByIdAsync(autorId);
+        if (autor == null){
+            throw new ArgumentException($"El autor con el id: {autorId}, no existe");
         }
 
-        repository.Delete(marca);
+        repository.Delete(autor);
         await repository.UnitOfWork.SaveChangesAsync();
 
         return true;
     }
 
-    public ICollection<MarcaDto> GetAll()
+    public ICollection<AutorDto> GetAll()
     {
-        var marcaList = repository.GetAll();
+        var autoresList = repository.GetAll();
 
-        var marcaListDto =  from m in marcaList
-                            select new MarcaDto(){
-                                Id = m.Id,
-                                Nombre = m.Nombre
+        var autoresListDto =  from a in autoresList
+                            select new AutorDto(){
+                                Id = a.Id,
+                                Nombres = a.Nombres,
+                                Apellidos = a.Apellidos
                             };
 
-        return marcaListDto.ToList();
+        return autoresListDto.ToList();
     }
 
 }

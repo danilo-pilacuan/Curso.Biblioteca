@@ -4,6 +4,7 @@ namespace Curso.Biblioteca.Domain;
 
 public interface IRepository<TEntity> where TEntity : class
 {
+    IUnitOfWork UnitOfWork { get; }
     IQueryable<TEntity> GetAll(bool asNoTracking = true);
 
     Task<TEntity> GetByIdAsync(int id);
